@@ -12,7 +12,7 @@ DF_PATH = "/mnt/data/movies.csv"
 
 @st.cache_data
 def load_data(path):
-    df = pd.read_csv(r"C:\\Users\\Swastikpc\\Movie_Recommendation_System\\movies.csv")
+    df = pd.read_csv("movies.csv")
     return df
 
 @st.cache_data
