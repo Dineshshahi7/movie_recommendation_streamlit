@@ -78,7 +78,7 @@ if st.button("Recommend"):
                 index = movie[0]
                 title_from_index = df.iloc[index]['title']
 
-                if i <= 10:
+                if i <= 5:
                     st.write(f"{i}. {title_from_index}")
                     i += 1
 
